@@ -1,0 +1,64 @@
+header::before {
+
+    background: url("img/bg2.jpg") no-repeat center center/cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: "";
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.3;
+}
+
+.navbar {
+    display: flex;
+}
+
+.navbar li {
+    list-style: none;
+    padding: 10px 6px;
+    margin: 3px 15px;
+}
+
+.navbar li a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 3px 9px;
+}
+
+
+.navbar li a:hover {
+    background-color: skyblue;
+    border-radius: 10px;
+}
+
+
+
+
+section {
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 75px 125px;
+    height: 240px;
+}
+
+
+
+h1 {
+    font-size: 3rem;
+    text-align: center;
+    margin: 15px;
+    font-family: 'Playfair Display', serif;
+}
+
+p {
+    text-align: center;
+    font-family: 'Tapestry', cursive;
+}
